@@ -1,12 +1,74 @@
-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 80%;
-    
-}
+body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: Arial, sans-serif;
+        }
 
-.container{
-    background-color: rgb(207, 114, 21);
-}
+        .card {
+            background: #ffffff;
+            width: 250px;
+            padding: 25px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
 
+        .profile-img {
+            width: 90px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #7886cf;
+        }
 
+        h2 {
+            margin:5px  0;
+            color: #333;
+        }
+
+        .role {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            font-size: 14px;
+            color: #555;
+            margin: 6px 0;
+        }
+
+        .info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .socials {
+            margin-top: 15px;
+        }
+
+        .socials a {
+            display: inline-block;
+            margin: 0 8px;
+            font-size: 13px;
+            color: white;
+            background: #667eea;
+            padding: 8px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .socials a:hover {
+            background: #764ba2;
+        }
+
+        .about{
+            color: #2e2a2a;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
